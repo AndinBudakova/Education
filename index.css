@@ -64,6 +64,54 @@
 }
 
 
+/* *******************************4 fotot te body************************************************ */
+
+article {
+    border: none;
+    padding: 10px;
+    margin: 40px 5px;
+    width: 60%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: flex-start;
+}
+
+div.gallery {
+    margin: 5px;
+    background-color: #f35300;
+    float: left;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    text-align: bottom;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    max-width: 135px;
+    max-height: 120px;
+    margin: 40px 0px 10px 0px;
+    font-family: "Hoefler Text", Cambria, "Times New Roman", serif;
+    color: #f35300;
+    text-align: center;
+    align-content: flex-start;
+}
+
+
+/* qito per 4 fotot, rishikoji */
+
+
 /* ********************Footer********************** */
 
 .footer {
