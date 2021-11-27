@@ -342,8 +342,46 @@ a.button:active {
 /* ************************* ASIDE *********************/
 
 aside li {
-    width: 330px;
+    width: 349px;
     height: 200px;
+}
+
+.date {
+    display: block;
+    width: 65px;
+    height: 50px;
+    margin: 5px auto;
+    background: #dedfe1;
+    text-align: center;
+    font-family: 'Helvetica', sans-serif;
+    position: relative;
+    border-radius: 10px;
+}
+
+.date .binds {
+    position: absolute;
+    height: 15px;
+    width: 40px;
+    border: solid #c9ccce;
+    border-width: 0 5px;
+    top: -6px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.date .month {
+    background: #b80f24;
+    display: block;
+    padding: 9px 0;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.date .day {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 2;
+    color: #b80f24;
 }
 
 .text {
@@ -352,5 +390,6 @@ aside li {
     word-spacing: normal;
     text-indent: 5px;
     padding-left: 80px;
+    border-style: none;
     height: 150px;
 }
