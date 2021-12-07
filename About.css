@@ -396,3 +396,21 @@
 p.two:hover .img1 {
     display: block;
 }
+
+
+/***************Table*********/
+
+table {
+    width: 704px;
+    border: 2px solid #ddd;
+    margin-left: 25px;
+}
+
+th,
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #E0FDE0;
+}
