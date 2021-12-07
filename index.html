@@ -99,6 +99,40 @@
             width: 700px;
         }
     </style>
+    <script>
+        //***************function of the search button**************
+        function search() {
+            var text = "The Eco-Schools programme is an ideal way for schools to embark on a meaningful path towards improving the environment in both the school and the local community while at the same time having a life-long positive impact on the lives of young people and their families.";
+            var message = document.getElementById("demo");
+            var word = document.getElementById('srch').value; //gets the input
+            if (word == "") {
+                try {
+                    throw "empty"; //throws an error if the input is empty
+                } catch (err) {
+                    message.innerHTML = "Input is " + err; //displays the error
+                }
+            } else {
+                var reg = new RegExp(word, "i"); //creates a regular expression object for matching text with the word
+                var res = reg.test(text); //tests whether the word exist on the text(true or false)
+                if (res) {
+                    var obj = reg.exec(text); //text for a match in the text
+                    document.getElementById("demo").innerHTML =
+                        "Results:   The word '" + obj + "' was found in position " + obj.index + " in the text: " + obj.input;
+                } else {
+                    document.getElementById("demo").innerHTML = "No results found.";
+                }
+            }
+            var modal = document.getElementById('Modal2'); //displays the modal
+            modal.style.display = "block";
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        }
+    </script>
 </head>
 
 <body style="width: 1024px; margin:auto; background-color: #5c5c5c;" onload="startTime()">
@@ -255,7 +289,7 @@
             <div id="Modal2" class="modal2">
 
                 <!--**********************Modal Content**********-->
-                <div class="modal12-content">
+                <div class="modal2-content">
                     <p id="demo"></p>
                 </div>
 
