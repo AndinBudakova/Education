@@ -99,6 +99,40 @@
             width: 700px;
         }
     </style>
+    <script>
+        //function of the search button
+        function search() {
+            var text = "Team Andin Budakova Blendi Dedushi Student";
+            var message = document.getElementById("demo");
+            var word = document.getElementById('srch').value; //gets the input
+            if (word == "") {
+                try {
+                    throw "empty"; //throws an error if the input is empty
+                } catch (err) {
+                    message.innerHTML = "Input is " + err; //displays the error
+                }
+            } else {
+                var reg = new RegExp(word, "i"); //creates a regular expression object for matching text with the word
+                var res = reg.test(text); //tests whether the word exist on the text(true or false)
+                if (res) {
+                    var obj = reg.exec(text); //text for a match in the text
+                    document.getElementById("demo").innerHTML =
+                        "Results:   The word '" + obj + "' was found in position " + obj.index + " in the text: " + obj.input;
+                } else {
+                    document.getElementById("demo").innerHTML = "No results found.";
+                }
+            }
+            var modal = document.getElementById('Modal2'); //displays the modal
+            modal.style.display = "block";
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        }
+    </script>
 
 </head>
 
@@ -292,8 +326,8 @@
                 <div class="karta">
 
 
-
-                    <img src="Images/bitmoji.png" alt="Andin" style="width:100%">
+                    <a href="andin.html ">
+                        <img src="Images/bitmoji.png" alt="Andin" style="width:100%"></a>
                     <div class="vazo">
                         <h2>Andin Budakova</h2>
 
@@ -314,8 +348,8 @@
 
             <div class="shtylle">
                 <div class="karta">
-
-                    <img src="Images/bitmoji2.jpg" alt="Blendi" style="width:100%">
+                    <a href="blendi.html ">
+                        <img src="Images/bitmoji2.jpg" alt="Blendi" style="width:100%"></a>
                     <div class="vazo">
                         <h2>Blendi Dedushi</h2>
                         <p style="color: grey">Student </p>
