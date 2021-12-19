@@ -116,7 +116,7 @@
     background: #c6ecc6;
     padding-top: 2px;
     margin-top: 2px;
-    color: white;
+    color: black;
 }
 
 
@@ -705,7 +705,7 @@ form p {
 }
 
 .box {
-    border: 1pt solid #f35300;
+    border: 1pt solid #000000;
     padding: 0.5em;
     margin-bottom: 0.4em;
     background-color: #d9d9d9;
