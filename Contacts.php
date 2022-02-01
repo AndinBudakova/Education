@@ -151,7 +151,7 @@
                     <li><button onclick="document.getElementById('id01').style.display='block'" class="btn">Login</button> | </li>
                     <li><button onclick="document.getElementById('id02').style.display='block'" class="btn">Sign up</button> | </li>
                     <li><a class="a" href="#bottom"> Bottom</a> | </li>
-                    <li><a class="a" href="Contacts.html#team"> Team </a></li>
+                    <li><a class="a" href="Contacts.php#team"> Team </a></li>
                 </ol>
 
             </div>
@@ -296,10 +296,10 @@
             <nav>
                 <br>
                 <ul id="nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="About.html">About</a></li>
-                    <li><a href="Events.html">Events</a></li>
-                    <li><a class="active" href="Contacts.html">Contact</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="About.php">About</a></li>
+                    <li><a href="Events.php">Events</a></li>
+                    <li><a class="active" href="Contacts.php">Contact</a></li>
 
                     <li style="float:right;"><button onclick="search()">Search</button>
                         <li style="float:right;"><input id="srch" type="text" placeholder="Search Term Here..."></li>
@@ -326,7 +326,7 @@
                 <div class="karta">
 
 
-                    <a href="andin.html ">
+                    <a href="andin.php ">
                         <img src="Images/bitmoji.png" alt="Andin" style="width:100%"></a>
                     <div class="vazo">
                         <h2>Andin Budakova</h2>
@@ -348,7 +348,7 @@
 
             <div class="shtylle">
                 <div class="karta">
-                    <a href="blendi.html ">
+                    <a href="blendi.php ">
                         <img src="Images/bitmoji2.jpg" alt="Blendi" style="width:100%"></a>
                     <div class="vazo">
                         <h2>Blendi Dedushi</h2>
@@ -610,7 +610,7 @@
                     <img src="Images/youtube.png" alt="Youtube" style="width: 20px; height: 20px;"></a>
             </div>
             <div class="details">
-                <h3 style="float: center"><a href="Contacts.html">Contacts</a></h3>
+                <h3 style="float: center"><a href="Contacts.php">Contacts</a></h3>
                 <!--Duhet te hapet new file Contacts.html-->
                 <hr>
                 <p style="color: lightseagreen; font-size: 14px;"><b>E-mail</b></p>

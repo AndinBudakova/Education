@@ -150,7 +150,7 @@
                     <li><button onclick="document.getElementById('id01').style.display='block'" class="btn">Login</button> | </li>
                     <li><button onclick="document.getElementById('id02').style.display='block'" class="btn">Sign up</button> | </li>
                     <li><a class="a" href="#bottom"> Bottom</a> | </li>
-                    <li><a class="a" href="Contacts.html#team"> Team </a></li>
+                    <li><a class="a" href="Contacts.php#team"> Team </a></li>
                 </ol>
 
             </div>
@@ -295,10 +295,10 @@
             <nav>
                 <br>
                 <ul id="nav">
-                    <li><a class="active" href="index.html">Home</a></li>
-                    <li><a href="About.html">About</a></li>
-                    <li><a href="Events.html">Events</a></li>
-                    <li><a href="Contacts.html">Contact</a></li>
+                    <li><a class="active" href="index.php">Home</a></li>
+                    <li><a href="About.php">About</a></li>
+                    <li><a href="Events.php">Events</a></li>
+                    <li><a href="Contacts.php">Contact</a></li>
 
                     <li style="float:right;"><button onclick="search()">Search</button>
                         <li style="float:right;"><input id="srch" type="text" placeholder="Search Term Here..."></li>
@@ -325,7 +325,7 @@
                 <p style="padding: 10px; color:white;">We are passionate about making our new classrooms not only functional but also places which inspire students and teachers alike. Due to this, we are keen not to design another conventional building that looks institutional, we take our
                     inspiration from natures curves. We offer schools a building that is a breath of fresh air. They will not only inspire people, but will show a strong environmental ethos and project a forward thinking approach out into the surrounding
                     communities.
-                    <a href="Events.html#futureschools" class="button">Continue Reading &raquo;</a></p>
+                    <a href="Events.phpl#futureschools" class="button">Continue Reading &raquo;</a></p>
 
             </div>
         </div>
@@ -346,7 +346,7 @@
                             <p class="text"> The winning design idea from architecture firm Architectus took home AU$25,000 (US$26,831) for its futuristic vision of the classroom. Dubbed eMOD, the concept is a flexible modular design system that can be configured to create
                                 a building solution that adapts to specific requirements such as site, climate and learning outcomes.
                             </p>
-                            <a href="Events.html#winner" style=" color: #f35300; float: right; text-decoration: none">Continue Reading</a>
+                            <a href="Events.php#winner" style=" color: #f35300; float: right; text-decoration: none">Continue Reading</a>
                         </li>
                         <hr>
                         <!-- ***************Second part of aside************-->
@@ -358,7 +358,7 @@
                             </div>
                             <p class="text"> In second place, architecture firm NBRS+PARTNERS impressed the judges with its futuristic MODUPOD concept. "It was the suggestive flexibility of the organic core to the building and its capacity to indicate closed, open, unwrapped
                                 or linear active space that proposed an aspiration for a learning. </p>
-                            <a href="Events.html#second" style="color: #f35300; float: right; text-decoration: none">Continue Reading</a>
+                            <a href="Events.php#second" style="color: #f35300; float: right; text-decoration: none">Continue Reading</a>
                         </li>
                         <hr>
                         <!-- ***************Third part aside************-->
@@ -370,7 +370,7 @@
                             </div>
                             <p class="text"> The third place entry by Oliver Ebben from Studioquint in Amsterdam was praised for its architectural deliberation. "The rational classroom form is made both spatial and place specific by three dimensional origami-like scales
                                 that articulate the form both internally and externally," said the jury. </p>
-                            <a href="Events.html#third" style="color: #f35300; float: right; text-decoration: none">Continue Reading</a>
+                            <a href="Events.php#third" style="color: #f35300; float: right; text-decoration: none">Continue Reading</a>
                         </li>
                         <hr>
                     </ul>
@@ -384,42 +384,42 @@
 
 
                 <div class="container">
-                    <a href="Events.html#greenflag ">
+                    <a href="Events.php#greenflag ">
                         <img src="Images/eco03.jpg" alt="Informacion" style=" width:100%;">
 
 
                     </a>
-                    <div class="content"><a href="Events.html#greenflag">Green Flag</a></div>
+                    <div class="content"><a href="Events.php#greenflag">Green Flag</a></div>
                 </div>
 
 
 
 
                 <div class="container">
-                    <a target="_blank" href="Events.html#ecowarriors ">
+                    <a target="_blank" href="Events.php#ecowarriors ">
                         <img src="Images/clean.jpg" alt="Informacion" style=" width:100%;">
 
 
                     </a>
-                    <div class="content"><a href="Events.html#ecowarriors">Eco-Warriors</a></div>
+                    <div class="content"><a href="Events.php#ecowarriors">Eco-Warriors</a></div>
                 </div>
 
 
                 <div class="container">
-                    <a target="_blank" href="Events.html#cleanairp ">
+                    <a target="_blank" href="Events.php#cleanairp ">
                         <img src="Images/airp.PNG" alt="Informacion" style=" width:100%;">
 
 
                     </a>
-                    <div class="content"><a href="Events.html#cleanairp">Clean Air</a></div>
+                    <div class="content"><a href="Events.php#cleanairp">Clean Air</a></div>
                 </div>
 
                 <div class="container">
-                    <a target="_blank" href="Events.html#ecoconference ">
+                    <a target="_blank" href="Events.php#ecoconference ">
                         <img src="Images/ps.jpg" alt="Informacion" style=" width:100%;">
 
                     </a>
-                    <div class="content"><a href="Events.html#ecoconference">WWF Conference</a></div>
+                    <div class="content"><a href="Events.php#ecoconference">WWF Conference</a></div>
                 </div>
 
             </article>
@@ -488,7 +488,7 @@
                     <img src="Images/youtube.png" alt="Youtube" style="width: 20px; height: 20px;"></a>
             </div>
             <div class="details">
-                <h3 style="float: center"><a href="Contacts.html">Contacts</a></h3>
+                <h3 style="float: center"><a href="Contacts.php">Contacts</a></h3>
                 <!--Duhet te hapet new file Contacts.html-->
                 <hr>
                 <p style="color: lightseagreen; font-size: 14px;"><b>E-mail</b></p>

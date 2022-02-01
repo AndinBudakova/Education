@@ -159,7 +159,7 @@
                     <li><button onclick="document.getElementById('id01').style.display='block'" class="btn"> Login</button> | </li>
                     <li><button onclick="document.getElementById('id02').style.display='block'" class="btn signUp"> Sign up</button> | </li>
                     <li><a class="a" href="#bottom"> Bottom</a> | </li>
-                    <li><a class="a" href="Contacts.html#team "> Team </a></li>
+                    <li><a class="a" href="Contacts.php#team "> Team </a></li>
                 </ol>
             </div>
             <br>
@@ -303,11 +303,11 @@
             <nav>
                 <br>
                 <ul id="nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="About.html">About</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="About.php">About</a></li>
 
-                    <li><a class="active" href="Events.html">Events</a></li>
-                    <li><a href="Contacts.html">Contact</a></li>
+                    <li><a class="active" href="Events.php">Events</a></li>
+                    <li><a href="Contacts.php">Contact</a></li>
 
 
                     <li style="float:right;"><button onclick="search()">Search</button></li>
@@ -763,7 +763,7 @@
 
             <div class="details">
 
-                <h3 style="float: center"><a target="_blank" href="Contacts.html">Contacts</a></h3>
+                <h3 style="float: center"><a target="_blank" href="Contacts.php">Contacts</a></h3>
                 <hr>
                 <p style="color: lightskyblue; font-size: 14px"><b>E-Mail:</b></p>
                 <p style="color: antiquewhite; font-size: 14px">
@@ -781,7 +781,7 @@
 
                 <h3 style="float: center"><a href="#">About</a></h3>
                 <hr>
-                <p style="color: antiquewhite">Our <a href="Index.html#mission"><b>Mission</b></a></p>
+                <p style="color: antiquewhite">Our <a href="Index.php#mission"><b>Mission</b></a></p>
                 <p style="color: antiquewhite">Address:</p>
 
                 <address style="display: block; font-style: italic; text-align: center;">

@@ -2,7 +2,7 @@
 
 <head>
     <title>Team</title>
-    <link rel="stylesheet" type="text/css" href="andin.css">
+    <link rel="stylesheet" type="text/css" href="blendi.css">
 </head>
 
 <body>
@@ -12,15 +12,15 @@
                 <div class="pic">
                     <div class="pic-arc-outer"></div>
                     <div class="pic-arc-inner"></div>
-                    <img src="Images/bitmoji.png">
+                    <img src="Images/bitmoji2.jpg">
                 </div>
                 <div class="desc">
-                    <h1>Andin Budakova</h1>
+                    <h1>Blendi Dedushi</h1>
                     <p>University: "UBT" </p>
-                    <p>City: Prishtine</p>
+                    <p>City: Lipjan</p>
                     <p>Department: Computer Engineering</p>
-                    <a href="Index.html"><button class="btn">Home</button></a>
-                    <a href="Contacts.html"><button class="btn">Back</button></a>
+                    <a href="Index.php"><button class="btn">Home</button></a>
+                    <a href="Contacts.php"><button class="btn">Back</button></a>
 
                 </div>
             </div>
