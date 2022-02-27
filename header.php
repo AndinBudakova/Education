@@ -56,7 +56,7 @@
                     <li><a class="active" href="signup.php">Sign Up</a></li>
                     <li><a href="login.php">Log In</a></li>
                     <li><a class="active" a href="books.php">Books</a></li>
-                    <li><a href="loginAdmin.php">Admin</a></li>
+                    <li><a href="loginadmin.php">Admin</a></li>
 
 
 
