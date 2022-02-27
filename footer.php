@@ -1,4 +1,7 @@
       <!-----------------------------------------Footer--------------------------------------------------->
+      <div class="footer">
+
+     
       <footer class="footer">
             <div class="details" id="bottom">
                 <h3><a href="#" style="text-transform: capitalize;">Stay in the know!</a></h3>
@@ -90,3 +93,4 @@
         </script>
 
         <!-- ----------Time-End------------------ -->
+        </div>

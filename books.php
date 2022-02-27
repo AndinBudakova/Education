@@ -4,6 +4,12 @@
   if (!isset($_SESSION['username'])) {
   	$_SESSION['msg'] = "You must log in first";
   	header('location: login.php');
+  }else{
+    if($_SESSION['username'] == "Admin"){
+        $hide = "";
+    }else{
+       $hide = "hide";
+    }
   }
   if (isset($_GET['logout'])) {
   	session_destroy();
@@ -43,6 +49,11 @@
 <html>
 <head>
     <title>Books</title>
+    <style>
+        .hide{
+            display:none;
+        }
+    </style>
     <meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="footer.css"/>
     <link rel="stylesheet" type="text/css" href="books.css"/>
@@ -240,7 +251,8 @@ echo "<br><br><br>"
 
 
 <!-- ****************** Kerko Komentin *************************************************** -->
-<div style= "border-style: solid; border-color:#5c5c5c;  border-width: 5px; 
+
+<div class="<?php echo $hide ?>" style= "border-style: solid; border-color:#5c5c5c;  border-width: 5px; 
             border-collapse: separate;
           padding: 2px; margin: 10px;"
           >

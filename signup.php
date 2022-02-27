@@ -7,16 +7,13 @@
     <link rel="stylesheet" type="text/css" href="forms.css">
 </head>
 <body style="width:1024px; margin:auto; background-color: #c6ecc6;">
-    
     <div style="background-color: white">
-    <header><?php include("header.php");?></header>
-    
-     <!-- ********************** SIGNUP MODAL ********************** -->
-           <div id="id02" class="modal"> 
+        <header><?php include("header.php");?></header>
+            <!-- ********************** SIGNUP MODAL ********************** -->
+            <div id="id02" class="modal"> 
                 <!-- ********************* MODAL CONTENT ******************** -->
-
                 <form class="modal-content1 animate" method="post" action="signup.php">
-                <?php include('errors.php'); ?>
+                    <?php include('errors.php'); ?>
                     <div style="padding: 0px; margin: 5%"> 
 
 
@@ -37,7 +34,6 @@
                         <p>Already have an account?<a  href="login.php" style="color:dodgerblue">Sign In</a> </p>
 
                         <div style="height: 55px">
-
                             <button id="signUpButton" type="submit" name="reg_user">Sign Up</button>
                         </div>
                     </div>
@@ -47,7 +43,7 @@
             </div> 
             <!-- ********************** SIGNUP MODAL END ************************ -->
     
-    <footer><?php include("footer.php");?></footer>
-        </div>
+        <footer><?php include("footer.php");?></footer>
+    </div>
 </body>
 </html>

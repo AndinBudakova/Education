@@ -1,10 +1,8 @@
 <?php 
 session_start();
 if(isset($_SESSION['username'])){
- header("location:home.php");
-}else{
-
-
+    header("location:home.php");
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -22,15 +20,13 @@ if(isset($_SESSION['username'])){
     <?php include("header.php");?>
     </header>
     
-     <!--********************** LOGIN MODAL ********************* -->
-     <div id="id01" class="modal"> 
+    <!--********************** LOGIN MODAL ********************* -->
+    <div id="id01" class="modal"> 
 
 <!-- ************ MODAL CONTENT ************* -->
 <form class="modal-content animate" method="post" action="loginadmin.php">
     <div style="padding: 0px; margin: 5%">
         <p style="font-size: 30px;float: left;margin: 0px;padding: 0px"><b>Admin Login</b></p>
-
-
         <br>
         <div>
            
@@ -49,13 +45,9 @@ if(isset($_SESSION['username'])){
 <!-- ************** MODAL CONTENT END ************** -->
   </div> 
 <!--********************** LOGIN MODAL END ********************* -->
-    
     <footer>
     <?php include("footer.php")?>
     </footer>
 </div>
-        </body>
+    </body>
 </html>
-<?php
-}
-?>

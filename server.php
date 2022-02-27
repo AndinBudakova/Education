@@ -20,23 +20,23 @@ if (isset($_POST['reg_user'])) {
   $password_2 = mysqli_real_escape_string($db, $_POST['password_2']);
 
   // validimi, nese ka gabime shtohen ne vargun $errors
-  if (empty($username)) { array_push($errors, "Username is required"); } 
-  else{
-  $FDname = test_input($_POST["username"]);
-		 if (!preg_match("/^[a-zA-Z]*$/",$FDname)) {
-         array_push($errors, "Username can only  contain letters")  ;
-        }
+  if (empty($username)){
+     array_push($errors, "Username is required");
+    }else{
+      $FDname = test_input($_POST["username"]);
+		  if (!preg_match("/^[a-zA-Z]*$/",$FDname)) {
+        array_push($errors, "Username can only  contain letters")  ;
       }
-  if (empty($email)) { array_push($errors, "Email is required"); }
-  else{
-    //  $FDemail=test_input($_POST["email"]);	
-   
-    
-     if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-      array_push($errors, "Invalid email format");
+    }
+  if (empty($email)){
+    array_push($errors, "Email is required");
+    }else{
+        //  $FDemail=test_input($_POST["email"]);	
+        if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+            array_push($errors, "Invalid email format");
+	        }
 	  }
-	  }
-  if (empty($password_1)) { array_push($errors, "Password is required"); }
+    if (empty($password_1)) { array_push($errors, "Password is required"); }
   else if (strlen($_POST['password_1']) <= 7) {
     array_push($errors, "Your password must contain at least 8 characters!");
 }
