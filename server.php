@@ -8,7 +8,7 @@ $FDusername=$FDemail = "";
 $errors = array(); 
 
 // lidhja me db
-// $db = mysqli_connect('localhost', 'root', '1234', 'ecoschools');
+// $db = mysqli_connect('localhost', 'root','education');
 include('db.php');
 
 // regjistrohen userat ndb

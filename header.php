@@ -56,6 +56,9 @@
                     <li><a class="active" href="signup.php">Sign Up</a></li>
                     <li><a href="login.php">Log In</a></li>
                     <li><a class="active" a href="books.php">Books</a></li>
+                    <li><a href="loginAdmin.php">Admin</a></li>
+
+
 
                     <li style="float:right;"><button onclick="search()">Search</button>
                         <li style="float:right;"><input id="srch" type="text" placeholder="Search Term Here..."></li>
